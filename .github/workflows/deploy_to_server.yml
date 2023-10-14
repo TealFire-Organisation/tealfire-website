@@ -34,6 +34,7 @@ jobs:
           MESSAGE: "Build: ({sha}) {msg}" # The commit message
 
   run_pull:
+    needs: build
     name: run pull
     runs-on: ubuntu-latest
     steps:
