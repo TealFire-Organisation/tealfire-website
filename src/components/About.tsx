@@ -14,8 +14,11 @@ export default function About() {
 			<div
 				className="scrollDown"
 				onClick={() => {
-					// change location to #teamspeak
-					window.location.href = "#teamspeak";
+					// scroll to bottom of page
+					window.scrollTo({
+						top: document.body.scrollHeight,
+						behavior: "smooth",
+					});
 				}}
 			>
 				<svg viewBox="0 0 330 330">
