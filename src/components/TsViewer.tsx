@@ -18,12 +18,13 @@ export default function TsViewer() {
 				data-serverid="299798"
 				data-style="icons=ts5&colorpack=default&clientc=EDEDED&clientb&clickable"
 			>
-				<a href="https://ts3index.com/?page=server&id=299798">
+				<a href="/">
 					Viewer couldn't be loaded. <br />
-					Wait a minute and reload the page with CTRL + F5.
-					<br /> <br />
-					TS3index.com
+					Wait a minute and reload the page.
 				</a>
+				<br />
+				<br />
+				<a href="https://ts3index.com/?page=server&id=299798">Ts3Index</a>
 			</div>
 		</div>
 	);
