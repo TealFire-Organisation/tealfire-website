@@ -35,7 +35,7 @@ jobs:
 
   run_pull:
     needs: build
-    name: run pull
+    name: Pull on server
     runs-on: ubuntu-latest
     steps:
     - name: install ssh keys
