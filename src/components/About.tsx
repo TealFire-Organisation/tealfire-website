@@ -14,7 +14,6 @@ export default function About() {
 			<div
 				className="scrollDown"
 				onClick={() => {
-					// scroll to bottom of page
 					window.scrollTo({
 						top: document.body.scrollHeight,
 						behavior: "smooth",
