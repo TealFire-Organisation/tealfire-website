@@ -14,10 +14,8 @@ export default function About() {
 			<div
 				className="scrollDown"
 				onClick={() => {
-					const teamspeak = document.getElementById("teamspeak");
-					if (teamspeak) {
-						teamspeak.scrollIntoView({ behavior: "smooth" });
-					}
+					// change location to #teamspeak
+					window.location.href = "#teamspeak";
 				}}
 			>
 				<svg viewBox="0 0 330 330">
